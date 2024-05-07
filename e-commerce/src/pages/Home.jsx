@@ -51,7 +51,7 @@ const Home = () => {
                     <a href="#" className='bg-black w-fit text-white font-bold px-6 py-3'>SHOP NOW</a>
                 </div>
 
-                <div className="right border border-red-500 h-[100px] flex justify-center items-center">
+                <div className="right border border-red-500 h-[100px] flex justify-center items-center mt-10">
                     <img src={shoe} alt="Shoe Image" className='ball ' />
                 </div>
             </div>

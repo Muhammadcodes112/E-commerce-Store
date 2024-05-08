@@ -9,31 +9,49 @@ import watch from '../images/watch.png';
 import amanbag from '../images/amanbag.png';
 import watchonfoam from '../images/watchonfoam.png';
 import leaf from '../images/leaf.png';
+import Navbar from '../components/Navbar';
 
 
 const Home = () => {
   return (
-    <div className='p-4 h-dvh'>
+    <div className='p-4 h-dvh home'>
         <div className='bg-[#f6ccd6]  rounded-lg justify-center items-center p-4 h-lvh'>
-            <div className='flex justify-between items-center w-[100%] '>
-                <div className="left">
-                    <h1 className="">E-Com</h1>
-                </div>
-                <div className="center p-4">
-                    <nav className='flex gap-5'>
-                        <ul><li><a href="#" className="nav-link">Home</a></li></ul>
-                        <ul><li><a href="#" className="nav-link">Fashion</a></li></ul>
-                        <ul><li><a href="#" className="nav-link">Electronics</a></li></ul>
-                        <ul><li><a href="#" className="nav-link">Tops and Hoodies</a></li></ul>
-                        <ul><li><a href="#" className="nav-link">Health and Beauty</a></li></ul>
-                    </nav>
-                </div>
-                <div className="right flex gap-5 border p-4">
-                    <a href='#'><BiAlignMiddle /></a>
-                    <a href='#'><FaSearch /></a>
-                    <a href='#'><FaShoppingCart /></a>
-                </div>
+
+        <div className='flex justify-between items-center w-[100%] '>
+            <div className="left">
+                <h1 className="">E-Com</h1>
             </div>
+            <div className="center p-4 first-navbar">
+                <nav className='flex gap-5'>
+                    <ul><li><a href="#" className="nav-link">Home</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Fashion</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Electronics</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Tops and Hoodies</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Health and Beauty</a></li></ul>
+                </nav>
+            </div>
+
+
+            <div className="center p-4 navbar">
+                <nav className='flex gap-5'>
+                    <ul><li><a href="#" className="nav-link">Home</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Fashion</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Electronics</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Tops and Hoodies</a></li></ul>
+                    <ul><li><a href="#" className="nav-link">Health and Beauty</a></li></ul>
+                </nav>
+            </div>
+
+
+            <div className="right flex gap-5 border p-4">
+                <a href='#'><BiAlignMiddle /></a>
+                <a href='#'><FaSearch /></a>
+                <a href='#'><FaShoppingCart /></a>
+            </div>
+
+           
+      </div>
+
 
 
 
@@ -51,7 +69,7 @@ const Home = () => {
                     <a href="#" className='bg-black w-fit text-white font-bold px-6 py-3'>SHOP NOW</a>
                 </div>
 
-                <div className="right border border-red-500 h-[100px] flex justify-center items-center mt-10">
+                <div className="right h-[100px] flex justify-center items-center mt-10">
                     <img src={shoe} alt="Shoe Image" className='ball ' />
                 </div>
             </div>
@@ -231,12 +249,12 @@ const Home = () => {
                     </div>
 
                     <div className="grid gap-4 justify-center items-center text-center">
-                        <div className="inner box grid bg-[rgb(217,227,240)] w-[500px] h-60 relative ">
-                            <img src={bag} alt="" className='absolute top-0 w-40 '/>
+                        <div className="inner box grid bg-[rgb(217,227,240)] w-[500px] h-60  ">
+                            <img src={bag} alt="" className='w-80 flex justify-center items-center ml-auto mr-auto'/>
                         </div>
                         <div className='flex gap-10 text-xs ml-auto mr-auto'>
                             <h1 className='flex gap-2 items-center'><FaRegCalendarAlt /> Apr 12, 2024</h1>
-                            <h1 className='flex gap-2 items-center'><IoMdPerson /> Demo Posthemes </h1>
+                            <h1 className='flex gap-2 items-center'><IoMdPerson /> Demo Post </h1>
                         </div>
                         <h1 className='text-xs font-semibold'>TODAY IS A GOOD DAY FRAMED FOSTER</h1>
                     </div>

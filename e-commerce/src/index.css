@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.home .navbar {
+  display: none;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
 
 .ball{
     animation: float 3s ease-in-out infinite;
@@ -77,4 +83,18 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(5, 5, 5, 0.3);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .home .navbar {
+    display: initial;
+    
+  }
+  .home .first-navbar {
+    display: none;
+    
+  }
 }
